@@ -1,11 +1,18 @@
-def print_arguments(*args):
-    num_args = len(args)
-    print("Number of arguments:", num_args)
-    
-    if num_args > 0:
-        print("List of arguments:")
-        for index, arg in enumerate(args):
-            print("Argument {}:".format(index + 1), arg)
-
+#!/usr/bin/python3
 if __name__ == "__main__":
-    print_arguments(1, "hello", [1, 2, 3], {"name": "James"})
+    import sys
+    i = len(sys.argv) - 1
+
+    if i == 0:
+        print("{} arguments.".format(i))
+    elif i == 1:
+        print("{} argument:".format(i))
+    else:
+        print("{} arguments:".format(i))
+
+    if i >= 1:
+        i = 0
+        for arg in sys.argv:
+            if i != 0:
+                print("{}: {}".format(i, arg))
+            i += 1
