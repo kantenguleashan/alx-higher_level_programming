@@ -1,20 +1,22 @@
 #!/usr/bin/python3
+
 def safe_print_list(my_list=[], x=0):
-    """Printing the right elements for my program
+    """print the all elements.
+
     Args:
-        where we will print.
-        numbers to be printed.
+        my_list (list):  List.
+        x (int): elements number
 
     Returns:
-        The number of elements printed.
+    PRINTED number.
     """
-    sett = 0
-    for k in range(x):
+    ret = 0
+    for p in range(x):
         try:
-            print("{}".format(my_list[i]), end="")
+            print("{}".format(my_list[p]), end="")
             ret += 1
         except IndexError:
             break
     print("")
-    return (sett)
+    return (ret)
 
