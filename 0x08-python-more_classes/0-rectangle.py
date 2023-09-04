@@ -1,3 +1,5 @@
-#!/usr/bin/python3
+#!/sir/bin/python3
+
 class Rectangle:
+    """ class rectangle"""
     pass
