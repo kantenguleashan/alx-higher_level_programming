@@ -1,5 +1,7 @@
-#!/sir/bin/python3
+#!/usr/bin/python3
+""" RECTANGLE CLASS"""
+
 
 class Rectangle:
-    """ class rectangle"""
+    """ Stands for a Rectangle."""
     pass
