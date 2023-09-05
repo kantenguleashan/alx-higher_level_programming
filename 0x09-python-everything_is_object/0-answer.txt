@@ -1,0 +1,2 @@
+#!/sir/bin/python3
+type
