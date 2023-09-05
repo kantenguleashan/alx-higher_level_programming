@@ -1,1 +1,2 @@
+""" The function type"""
 type
