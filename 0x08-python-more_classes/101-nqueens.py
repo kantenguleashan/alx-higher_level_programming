@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-
-"""SOLVING NQUEEN PUZZLE.
-
-CHECKING ALL SOLUTIONS.
-
+"""SOLVING N PUZZLE
+Attributes:
+    board (list): A list of lists representing the chessboard.
+    solutions (list): A list of lists containing solutions.
 """
 import sys
 
 
 def init_board(n):
-    """SETTING  `n`x`n` CHESSBOARD with 0's."""
+
     board = []
     [board.append([]) for i in range(n)]
     [row.append(' ') for i in range(n) for row in board]
@@ -35,8 +34,16 @@ def get_solution(board):
 
 
 def xout(board, row, col):
-   
+    """X out spots on a chessboard.
 
+    All spots where non-attacking queens can no
+    longer be played are X-ed out.
+
+    Args:
+        board (list): The current working chessboard.
+        row (int): The row where a queen was last played.
+        col (int): The column where a queen was last played.
+    """
     # X out all forward spots
     for c in range(col + 1, len(board)):
         board[row][c] = "x"
