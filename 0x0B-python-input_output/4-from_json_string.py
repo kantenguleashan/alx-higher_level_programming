@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-""" MODULE FOR JSON
-
+""" FUNCTION MODULE THAT RETURNS JSON REPRE.
+"""
 import json
 
 
 def from_json_string(my_str):
-    """  FUNCTION FOR RETURING JSON OJBECT
+    """ Function that returns an object by a JSON representation
 
     Args:
-        my_str: REPRESENTING JSON
+        my_str: JSON representation
 
     Raises:
-        Exception: WHEN ITS IMPOSSIBLE TO DELETE A STRING
+        Exception: WHEN STRING CANT BE DECODED
 
     """
     return json.loads(my_str)
