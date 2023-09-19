@@ -1,22 +1,24 @@
 #!/usr/bin/python3
-"""DEFINES A BASE CLASS"""
+
+"""Defines a base model class."""
 import json
 import csv
 import turtle
 
 
 class Base:
-    """ MODEL REPRE.
+    """Base model.
 
-     STANDS FOR THE  "base" for all other classes in project 0x0C*.
+    This Represents the "base" for all other classes in project 0x0C*.
 
-    Attributes:
-        __nb_objects (int): The number of instantiated Bases.
+    Private Class Attributes:
+        __nb_object (int): Number of instantiated Bases.
     """
 
     __nb_objects = 0
 
     def __init__(self, id=None):
+        """Initialize a new Base.
 
         Args:
             id (int): The identity of the new Base.
@@ -55,7 +57,7 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
-        """RETURN JSON STRING .
+        """Return the deserialization of a JSON string.
 
         Args:
             json_string (str): A JSON str representation of a list of dicts.

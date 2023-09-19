@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines unittests for base.py.
+"""Defines UNINITENESS.py.
 
 Unittest classes:
     TestBase_instantiation - line 21
@@ -547,4 +547,3 @@ class TestBase_load_from_file_csv(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
