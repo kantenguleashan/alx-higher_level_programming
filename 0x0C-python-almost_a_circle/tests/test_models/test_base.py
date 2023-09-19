@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines UNINITENESS.py.
+"""Defines uniteness of BASE.py.
 
 Unittest classes:
     TestBase_instantiation - line 21
