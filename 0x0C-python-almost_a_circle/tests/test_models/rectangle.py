@@ -1,5 +1,6 @@
-#!/usr/bin/python3
-"""DEFINES MODELS AND TEST PY FILES.
+t_rectangle.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines unittests for models/rectangle.py.
 
 Unittest classes:
     TestRectangle_instantiation - line 25
@@ -804,4 +805,3 @@ class TestRectangle_to_dictionary(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
