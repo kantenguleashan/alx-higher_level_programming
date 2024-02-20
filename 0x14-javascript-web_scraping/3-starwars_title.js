@@ -13,4 +13,3 @@ if (parseInt(episodeId) < 8) {
     console.log(JSON.parse(body).title);
   });
 }
-
