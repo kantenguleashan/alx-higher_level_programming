@@ -7,4 +7,3 @@ fs.writeFile(file, content, 'utf-8', function (err) {
     console.log(err);
   }
 });
-
