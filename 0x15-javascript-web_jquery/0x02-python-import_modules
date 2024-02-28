@@ -1,0 +1,18 @@
+
+n-data_structures          0x13-javascript_objects_scopes_closures
+0x04-python-more_data_structures     0x14-javascript-web_scraping
+0x05-python-exceptions               0x15-javascript-web_jquery
+0x06-python-classes                  1-dlistint_len.c
+0x08-python-more_classes             2-add_dnodeint.c
+0x09-python-everything_is_object     3-add_dnodeint_end.c
+0x0A-python-inheritance              4-free_dlistint.c
+0x0B-python-input_output             5-get_dnodeint.c
+0x0C-python-almost_a_circle          lists.h
+0x0D-SQL_introduction                README.md
+0x0E-SQL_more_queries
+root@e8cb547e04d8:/alx-higher_level_programming# cd 0x15-javascript-web_jquery
+root@e8cb547e04d8:/alx-higher_level_programming/0x15-javascript-web_jquery# ls
+0-script.js  2-script.js  4-script.js  6-script.js  8-script.js  main.html
+1-script.js  3-script.js  5-script.js  7-script.js  9-script.js  READEM.md
+root@e8cb547e04d8:/alx-higher_level_programming/0x15-javascript-web_jquery# vi
+
